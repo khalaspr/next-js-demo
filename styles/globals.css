@@ -14,3 +14,20 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.character-info{
+  display: inline-block;
+  list-style: none;
+}
+
+.character-info li{
+  padding: 20px;
+}
+.box{
+  display: flex;
+}
+.char-info{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
